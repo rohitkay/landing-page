@@ -1,0 +1,70 @@
+body{
+    font-family:'roboto', sans-serif;
+}
+
+.header{
+    background-color: #1F2937;
+    display:flex;
+    justify-content: space-between;
+    padding:10px 200px;
+    align-items: center;
+}
+
+.header a{
+    text-decoration: none;
+    color:#e5e7eb;
+}
+
+.logo{
+    font-size:24px;
+    color:#f9faf8;
+    
+}
+
+.links{
+    display:flex;
+    gap:40px;
+    color:#e5e7eb;
+    list-style: none;
+    font-weight:200;
+    font-size:18px;
+
+}
+
+
+/**Section2**/
+
+.section2{
+    background-color: #1F2937;
+    display: flex;
+    padding:80px 200px;
+    justify-content: space-between;
+    gap:50px;
+}
+
+.hero-text{
+    color:#f9faf8;
+    font-size:48px;
+    font-weight:900px;
+    margin:0;
+}
+
+
+
+.hero-content p{
+    color:#e5e7eb;
+    font-size:18px;
+}
+
+.hero-image{
+    width:400px;
+    flex:1;
+}
+
+.hero-button{
+    background-color: #3882f6;
+    border:0;
+    color:white;
+    padding:10px 30px;
+    border-radius: 5px;
+}
