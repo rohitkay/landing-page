@@ -1,5 +1,7 @@
-body{
+html,body{
     font-family:'roboto', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .header{
@@ -58,7 +60,7 @@ body{
 
 .hero-image{
     width:400px;
-    flex:1;
+    flex:0;
 }
 
 .hero-button{
@@ -67,4 +69,106 @@ body{
     color:white;
     padding:10px 30px;
     border-radius: 5px;
+}
+
+/** Section 3 **/
+
+.section3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:80px 200px;
+}
+
+.blurb-image{
+    height:150px;
+    border: solid 2px #3882f6;
+    border-radius: 15px;
+}
+
+.blurbs{
+    display: flex;
+    justify-content: center;    
+    gap:80px;
+}
+
+.blurb{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color:#1F2937;
+    flex: 1 1 auto;
+}
+
+
+/** Testimonial section **/
+
+.testimonial-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0px;
+    background-color: #e5e7eb;
+    padding:80px 200px;
+    
+}
+
+.testimonial{
+    font-size: 36px;
+    font-style: italic;
+    color:#1F2937;
+    font-weight: 100;
+    text-align: left;
+    
+    margin-bottom: 0;
+}
+
+.author{
+    text-align: right;
+    font-weight: 800;
+}
+
+/** CTA section **/
+
+.cta-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    margin:100px;
+    gap: 80px;
+    padding: 70px;
+    border-radius: 15px;
+    align-items: center;
+    flex: 1;
+}
+
+.cta-content{
+    display:flex;
+    flex-direction: column;
+    gap: 0px;
+    color: #f9faf8;
+    justify-content: center;
+    flex-grow:1;
+}
+
+.cta-heading{
+    color: #f9faf8;
+    font-size:25px;
+    margin-bottom: 0;
+}
+
+.cta-button{
+    height: 50px;
+    border: solid white;
+    background-color: #3882f6;
+    color:white;
+    border-radius: 8px;
+    padding: 10px 30px;
+    flex-shrink: 0;
 }
